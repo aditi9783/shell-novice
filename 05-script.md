@@ -74,7 +74,7 @@ let's edit `middle.sh` and replace `octane.pdb` with a special variable called `
 $ cat middle.sh
 ~~~
 ~~~ {.output}
-head -20 "$1" | tail -5
+head -15 "$1" | tail -5
 ~~~
 
 Inside a shell script,
